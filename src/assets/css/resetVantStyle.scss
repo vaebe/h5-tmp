@@ -1,0 +1,24 @@
+.resetVantStyle {
+  // 抽离颜色变量 方便后续调整，注意命名
+  --dark: #033858;
+
+  .van-nav-bar {
+    background: var(--dark);
+
+    .van-nav-bar__title {
+      color: #ffffff;
+    }
+  }
+
+  .van-hairline--bottom::after {
+    border-color: #416aa8;
+  }
+
+  // button
+  .van-button--default {
+    background: var(--dark);
+    border-color: var(--dark);
+    color: #ffffff;
+  }
+
+}

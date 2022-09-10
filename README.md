@@ -1,4 +1,4 @@
-# coms-h5
+# h5-tmp
 
 # 依赖
 ## [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport/blob/master/README_CN.md)
